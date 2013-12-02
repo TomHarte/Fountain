@@ -46,10 +46,7 @@ This file contains all the regular expressions used by FountainParser. It remain
 
 ## Installation
 
-1. Copy all the files in the Fountain group to your project.
-2. RegexKitLite requires the `-licucore` linker flag to be added to your project. See http://regexkit.sourceforge.net/RegexKitLite/#AddingRegexKitLitetoyourProject for help enabling RegexKitLite in your project.
-
-If you don't want to use RegexKitLite you can remove the references to it in FountainParser.m and FountainWriter.m. You shouldn't have to change much code outside those files to change the regex library. While the regular expressions should be compatible with most standard regex implementation, you might have to massage them to work with a different library. Good luck with that.
+Copy all the files in the Fountain group to your project.
 
 ## Usage
 
