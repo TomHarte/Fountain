@@ -25,7 +25,7 @@
 #import "FNPaginator.h"
 #import "FNScript.h"
 #import "FNElement.h"
-#import "RegexKitLite.h"
+#import "NSString+RegularExpressionKit.h"
 
 @interface FNPaginator ()
 

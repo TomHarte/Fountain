@@ -42,7 +42,6 @@
 		149D634117EA93E200DA482C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149D633F17EA93E200DA482C /* Main.storyboard */; };
 		149D634417EA93E200DA482C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149D634317EA93E200DA482C /* ViewController.m */; };
 		149D634617EA93E200DA482C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149D634517EA93E200DA482C /* Images.xcassets */; };
-		149D636417EA969600DA482C /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8CD0FF14DF64B400F18DE6 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		149D636517EA969600DA482C /* FountainRegexes.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BB06614DF3D76004A90E8 /* FountainRegexes.m */; };
 		149D636617EA969600DA482C /* FNScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BB06214DF3D76004A90E8 /* FNScript.m */; };
 		149D636717EA969600DA482C /* FNElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BB06414DF3D76004A90E8 /* FNElement.m */; };
@@ -69,7 +68,6 @@
 		3C76B00D14E05C5C00EDDA5F /* FNScriptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C76B00C14E05C5C00EDDA5F /* FNScriptTests.m */; };
 		3C8CD0E314DF589E00F18DE6 /* Big Fish.fountain in Resources */ = {isa = PBXBuildFile; fileRef = 3C8CD0E214DF589E00F18DE6 /* Big Fish.fountain */; };
 		3C8CD0E614DF58C300F18DE6 /* BigFishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8CD0E514DF58C300F18DE6 /* BigFishTests.m */; };
-		3C8CD10114DF64B400F18DE6 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8CD0FF14DF64B400F18DE6 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3C8CD10714DF7CCC00F18DE6 /* Brick And Steel.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C8CD10614DF7CCC00F18DE6 /* Brick And Steel.txt */; };
 		3C8CD10A14DF7CE600F18DE6 /* BrickAndSteelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8CD10914DF7CE600F18DE6 /* BrickAndSteelTests.m */; };
 		3C8CD10D14DF9D9400F18DE6 /* FountainWriterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8CD10C14DF9D9400F18DE6 /* FountainWriterTests.m */; };
@@ -82,6 +80,9 @@
 		3CBFF74215940A40005EC5BF /* Big Fish.fountain in Resources */ = {isa = PBXBuildFile; fileRef = 3C8CD0E214DF589E00F18DE6 /* Big Fish.fountain */; };
 		3CBFF74415940ACC005EC5BF /* ScriptCSS.css in Resources */ = {isa = PBXBuildFile; fileRef = 3CBFF74315940ACC005EC5BF /* ScriptCSS.css */; };
 		3CBFF74715940D52005EC5BF /* FNPaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFF74615940D52005EC5BF /* FNPaginator.m */; };
+		4BD3F972184C3CE700610D88 /* NSString+RegularExpressionKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3F971184C3CE700610D88 /* NSString+RegularExpressionKit.m */; };
+		4BD3F973184C3CE700610D88 /* NSString+RegularExpressionKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3F971184C3CE700610D88 /* NSString+RegularExpressionKit.m */; };
+		4BD3F974184C3CE700610D88 /* NSString+RegularExpressionKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3F971184C3CE700610D88 /* NSString+RegularExpressionKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,9 +182,6 @@
 		3C8CD0E214DF589E00F18DE6 /* Big Fish.fountain */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Big Fish.fountain"; sourceTree = "<group>"; };
 		3C8CD0E414DF58C300F18DE6 /* BigFishTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigFishTests.h; sourceTree = "<group>"; };
 		3C8CD0E514DF58C300F18DE6 /* BigFishTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigFishTests.m; sourceTree = "<group>"; };
-		3C8CD0FD14DF64B400F18DE6 /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
-		3C8CD0FE14DF64B400F18DE6 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
-		3C8CD0FF14DF64B400F18DE6 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
 		3C8CD10614DF7CCC00F18DE6 /* Brick And Steel.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Brick And Steel.txt"; sourceTree = "<group>"; };
 		3C8CD10814DF7CE600F18DE6 /* BrickAndSteelTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrickAndSteelTests.h; sourceTree = "<group>"; };
 		3C8CD10914DF7CE600F18DE6 /* BrickAndSteelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrickAndSteelTests.m; sourceTree = "<group>"; };
@@ -201,6 +199,8 @@
 		3CBFF74315940ACC005EC5BF /* ScriptCSS.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ScriptCSS.css; sourceTree = "<group>"; };
 		3CBFF74515940D52005EC5BF /* FNPaginator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNPaginator.h; sourceTree = "<group>"; };
 		3CBFF74615940D52005EC5BF /* FNPaginator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNPaginator.m; sourceTree = "<group>"; };
+		4BD3F970184C3CE700610D88 /* NSString+RegularExpressionKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RegularExpressionKit.h"; sourceTree = "<group>"; };
+		4BD3F971184C3CE700610D88 /* NSString+RegularExpressionKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RegularExpressionKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -340,7 +340,6 @@
 		3C0BB01E14DF3D55004A90E8 = {
 			isa = PBXGroup;
 			children = (
-				3C8CD0FC14DF64B300F18DE6 /* RegexKitLite */,
 				3C0BB03314DF3D55004A90E8 /* Fountain */,
 				3C0BB05014DF3D56004A90E8 /* FountainTests */,
 				3CBFF73915940793005EC5BF /* Sample Project Mac */,
@@ -388,6 +387,8 @@
 		3C0BB03314DF3D55004A90E8 /* Fountain */ = {
 			isa = PBXGroup;
 			children = (
+				4BD3F970184C3CE700610D88 /* NSString+RegularExpressionKit.h */,
+				4BD3F971184C3CE700610D88 /* NSString+RegularExpressionKit.m */,
 				149D636F17EA98E300DA482C /* QUQFont.h */,
 				3C0BB06514DF3D76004A90E8 /* FountainRegexes.h */,
 				3C0BB06614DF3D76004A90E8 /* FountainRegexes.m */,
@@ -452,16 +453,6 @@
 				146059FD17E8FDED00B7B611 /* Element specific */,
 			);
 			name = "Test Files";
-			sourceTree = "<group>";
-		};
-		3C8CD0FC14DF64B300F18DE6 /* RegexKitLite */ = {
-			isa = PBXGroup;
-			children = (
-				3C8CD0FD14DF64B400F18DE6 /* License.rtf */,
-				3C8CD0FE14DF64B400F18DE6 /* RegexKitLite.h */,
-				3C8CD0FF14DF64B400F18DE6 /* RegexKitLite.m */,
-			);
-			path = RegexKitLite;
 			sourceTree = "<group>";
 		};
 		3CBFF73915940793005EC5BF /* Sample Project Mac */ = {
@@ -638,7 +629,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				149D636417EA969600DA482C /* RegexKitLite.m in Sources */,
 				149D636517EA969600DA482C /* FountainRegexes.m in Sources */,
 				149D636617EA969600DA482C /* FNScript.m in Sources */,
 				149D636717EA969600DA482C /* FNElement.m in Sources */,
@@ -650,6 +640,7 @@
 				149D634417EA93E200DA482C /* ViewController.m in Sources */,
 				149D633E17EA93E200DA482C /* AppDelegate.m in Sources */,
 				149D633A17EA93E200DA482C /* main.m in Sources */,
+				4BD3F974184C3CE700610D88 /* NSString+RegularExpressionKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,10 +651,10 @@
 				3C0BB03A14DF3D55004A90E8 /* main.m in Sources */,
 				3C0BB06B14DF3D76004A90E8 /* FNScript.m in Sources */,
 				3C0BB06C14DF3D76004A90E8 /* FNElement.m in Sources */,
+				4BD3F973184C3CE700610D88 /* NSString+RegularExpressionKit.m in Sources */,
 				3C0BB06D14DF3D76004A90E8 /* FountainRegexes.m in Sources */,
 				3C0BB06E14DF3D76004A90E8 /* FountainParser.m in Sources */,
 				3C0BB06F14DF3D76004A90E8 /* FountainWriter.m in Sources */,
-				3C8CD10114DF64B400F18DE6 /* RegexKitLite.m in Sources */,
 				3C9545E51593EBA500ABBA9B /* FastFountainParser.m in Sources */,
 				3C95460D1594025400ABBA9B /* FNHTMLScript.m in Sources */,
 				3CBFF73F15940815005EC5BF /* AppDelegate.m in Sources */,
@@ -680,6 +671,7 @@
 				14605A1C17E9005300B7B611 /* IndentingTests.m in Sources */,
 				3C8CD10A14DF7CE600F18DE6 /* BrickAndSteelTests.m in Sources */,
 				3C8CD10D14DF9D9400F18DE6 /* FountainWriterTests.m in Sources */,
+				4BD3F972184C3CE700610D88 /* NSString+RegularExpressionKit.m in Sources */,
 				3C76B00D14E05C5C00EDDA5F /* FNScriptTests.m in Sources */,
 				14605A1F17E9005300B7B611 /* PageBreakTests.m in Sources */,
 				14605A2017E9005300B7B611 /* SceneNumberTests.m in Sources */,

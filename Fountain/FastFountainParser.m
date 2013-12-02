@@ -24,7 +24,7 @@
 
 #import "FastFountainParser.h"
 #import "FNElement.h"
-#import "RegexKitLite.h"
+#import "NSString+RegularExpressionKit.h"
 
 static NSString * const kInlinePattern = @"^([^\\t\\s][^:]+):\\s*([^\\t\\s].*$)";
 static NSString * const kDirectivePattern = @"^([^\\t\\s][^:]+):([\\t\\s]*$)";

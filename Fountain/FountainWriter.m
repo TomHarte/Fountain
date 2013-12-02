@@ -26,7 +26,7 @@
 #import "FNScript.h"
 #import "FNElement.h"
 #import "FountainRegexes.h"
-#import "RegexKitLite.h"
+#import "NSString+RegularExpressionKit.h"
 
 @implementation FountainWriter
 
